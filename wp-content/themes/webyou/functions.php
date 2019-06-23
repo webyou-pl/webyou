@@ -21,8 +21,8 @@
  * {@link https://codex.wordpress.org/Plugin_API}
  *
  * @package WordPress
- * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
+ * @subpackage Web_You
+ * @since Web You 0.1
  */
 
 /**
@@ -42,7 +42,7 @@ if ( ! function_exists( 'twentysixteen_setup' ) ) :
 	 *
 	 * Create your own twentysixteen_setup() function to override in a child theme.
 	 *
-	 * @since Twenty Sixteen 1.0
+	 * @since Web You 0.1
 	 */
 	function twentysixteen_setup() {
 		/*
@@ -224,7 +224,7 @@ add_action( 'after_setup_theme', 'twentysixteen_setup' );
  *
  * @global int $content_width
  *
- * @since Twenty Sixteen 1.0
+ * @since Web You 0.1
  */
 function twentysixteen_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'twentysixteen_content_width', 840 );
@@ -257,7 +257,7 @@ add_filter( 'wp_resource_hints', 'twentysixteen_resource_hints', 10, 2 );
  *
  * @link https://developer.wordpress.org/reference/functions/register_sidebar/
  *
- * @since Twenty Sixteen 1.0
+ * @since Web You 0.1
  */
 function twentysixteen_widgets_init() {
 	register_sidebar(
@@ -304,7 +304,7 @@ if ( ! function_exists( 'twentysixteen_fonts_url' ) ) :
 	 *
 	 * Create your own twentysixteen_fonts_url() function to override in a child theme.
 	 *
-	 * @since Twenty Sixteen 1.0
+	 * @since Web You 0.1
 	 *
 	 * @return string Google fonts URL for the theme.
 	 */
@@ -347,7 +347,7 @@ endif;
  *
  * Adds a `js` class to the root `<html>` element when JavaScript is detected.
  *
- * @since Twenty Sixteen 1.0
+ * @since Web You 0.1
  */
 function twentysixteen_javascript_detection() {
 	echo "<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>\n";
@@ -357,7 +357,7 @@ add_action( 'wp_head', 'twentysixteen_javascript_detection', 0 );
 /**
  * Enqueues scripts and styles.
  *
- * @since Twenty Sixteen 1.0
+ * @since Web You 0.1
  */
 function twentysixteen_scripts() {
 	// Add custom fonts, used in the main stylesheet.
@@ -427,7 +427,7 @@ add_action( 'enqueue_block_editor_assets', 'twentysixteen_block_editor_styles' )
 /**
  * Adds custom classes to the array of body classes.
  *
- * @since Twenty Sixteen 1.0
+ * @since Web You 0.1
  *
  * @param array $classes Classes for the body element.
  * @return array (Maybe) filtered body classes.
@@ -460,7 +460,7 @@ add_filter( 'body_class', 'twentysixteen_body_classes' );
 /**
  * Converts a HEX value to RGB.
  *
- * @since Twenty Sixteen 1.0
+ * @since Web You 0.1
  *
  * @param string $color The original color, in 3- or 6-digit hexadecimal form.
  * @return array Array containing RGB (red, green, and blue) values for the given
@@ -502,7 +502,7 @@ require get_template_directory() . '/inc/customizer.php';
  * Add custom image sizes attribute to enhance responsive image functionality
  * for content images
  *
- * @since Twenty Sixteen 1.0
+ * @since Web You 0.1
  *
  * @param string $sizes A source size value for use in a 'sizes' attribute.
  * @param array  $size  Image size. Accepts an array of width and height
@@ -536,7 +536,7 @@ add_filter( 'wp_calculate_image_sizes', 'twentysixteen_content_image_sizes_attr'
  * Add custom image sizes attribute to enhance responsive image functionality
  * for post thumbnails
  *
- * @since Twenty Sixteen 1.0
+ * @since Web You 0.1
  *
  * @param array $attr Attributes for the image markup.
  * @param int   $attachment Image attachment ID.

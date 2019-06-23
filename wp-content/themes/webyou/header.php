@@ -5,8 +5,8 @@
  * Displays all of the head element and everything up until the "site-content" div.
  *
  * @package WordPress
- * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
+ * @subpackage Web_You
+ * @since Web You 0.1
  */
 
 ?><!DOCTYPE html>
@@ -86,7 +86,7 @@
 					/**
 					 * Filter the default twentysixteen custom header sizes attribute.
 					 *
-					 * @since Twenty Sixteen 1.0
+					 * @since Web You 0.1
 					 *
 					 * @param string $custom_header_sizes sizes attribute
 					 * for Custom Header. Default '(max-width: 709px) 85vw,

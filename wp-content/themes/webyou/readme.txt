@@ -17,14 +17,14 @@ Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the 
 * Post Formats
 * The GPL v2.0 or later license. :) Use it to make something cool.
 
-For more information about Twenty Sixteen please go to https://codex.wordpress.org/Twenty_Sixteen.
+For more information about Twenty Sixteen please go to https://codex.wordpress.org/Web_You.
 
 == Installation ==
 
 1. In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
 2. Type in Twenty Sixteen in the search form and press the 'Enter' key on your keyboard.
 3. Click on the 'Activate' button to use your new theme right away.
-4. Go to https://codex.wordpress.org/Twenty_Sixteen for a guide on how to customize this theme.
+4. Go to https://codex.wordpress.org/Web_You for a guide on how to customize this theme.
 5. Navigate to Appearance > Customize in your admin panel and customize to taste.
 
 == Copyright ==
@@ -59,47 +59,47 @@ Image used in screenshot.png: A photo by Austin Schmid (https://unsplash.com/sch
 = 1.9 =
 * Released: February 21, 2019
 
-https://codex.wordpress.org/Twenty_Sixteen_Theme_Changelog#Version_1.9
+https://codex.wordpress.org/Web_You_Theme_Changelog#Version_1.9
 
 = 1.8 =
 * Released: January 9, 2019
 
-https://codex.wordpress.org/Twenty_Sixteen_Theme_Changelog#Version_1.8
+https://codex.wordpress.org/Web_You_Theme_Changelog#Version_1.8
 
 = 1.7 =
 * Released: December 19, 2018
 
-https://codex.wordpress.org/Twenty_Sixteen_Theme_Changelog#Version_1.7
+https://codex.wordpress.org/Web_You_Theme_Changelog#Version_1.7
 
 = 1.6 =
 * Released: December 6, 2018
 
-https://codex.wordpress.org/Twenty_Sixteen_Theme_Changelog#Version_1.6
+https://codex.wordpress.org/Web_You_Theme_Changelog#Version_1.6
 
 = 1.5 =
 * Released: May 17, 2018
 
-https://codex.wordpress.org/Twenty_Sixteen_Theme_Changelog#Version_1.5
+https://codex.wordpress.org/Web_You_Theme_Changelog#Version_1.5
 
 = 1.4 =
 * Released: November 14, 2017
 
-https://codex.wordpress.org/Twenty_Sixteen_Theme_Changelog#Version_1.4
+https://codex.wordpress.org/Web_You_Theme_Changelog#Version_1.4
 
 = 1.3 =
 * Released: August 16, 2016
 
-https://codex.wordpress.org/Twenty_Sixteen_Theme_Changelog#Version_1.3
+https://codex.wordpress.org/Web_You_Theme_Changelog#Version_1.3
 
 = 1.2 =
 * Released: April 12, 2016
 
-https://codex.wordpress.org/Twenty_Sixteen_Theme_Changelog#Version_1.2
+https://codex.wordpress.org/Web_You_Theme_Changelog#Version_1.2
 
 = 1.1 =
 * Released: January 6, 2016
 
-https://codex.wordpress.org/Twenty_Sixteen_Theme_Changelog#Version_1.1
+https://codex.wordpress.org/Web_You_Theme_Changelog#Version_1.1
 
 = 1.0 =
 * Released: December 8, 2015

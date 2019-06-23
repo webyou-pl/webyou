@@ -7,8 +7,8 @@
  * relies on many newer functions and markup changes introduced in 4.4.
  *
  * @package WordPress
- * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
+ * @subpackage Web_You
+ * @since Web You 0.1
  */
 
 /**
@@ -16,7 +16,7 @@
  *
  * Switches to the default theme.
  *
- * @since Twenty Sixteen 1.0
+ * @since Web You 0.1
  */
 function twentysixteen_switch_theme() {
 	switch_theme( WP_DEFAULT_THEME, WP_DEFAULT_THEME );
@@ -33,7 +33,7 @@ add_action( 'after_switch_theme', 'twentysixteen_switch_theme' );
  * Prints an update nag after an unsuccessful attempt to switch to
  * Twenty Sixteen on WordPress versions prior to 4.4.
  *
- * @since Twenty Sixteen 1.0
+ * @since Web You 0.1
  *
  * @global string $wp_version WordPress version.
  */
@@ -45,7 +45,7 @@ function twentysixteen_upgrade_notice() {
 /**
  * Prevents the Customizer from being loaded on WordPress versions prior to 4.4.
  *
- * @since Twenty Sixteen 1.0
+ * @since Web You 0.1
  *
  * @global string $wp_version WordPress version.
  */
@@ -63,7 +63,7 @@ add_action( 'load-customize.php', 'twentysixteen_customize' );
 /**
  * Prevents the Theme Preview from being loaded on WordPress versions prior to 4.4.
  *
- * @since Twenty Sixteen 1.0
+ * @since Web You 0.1
  *
  * @global string $wp_version WordPress version.
  */

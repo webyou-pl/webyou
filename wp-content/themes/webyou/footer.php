@@ -5,8 +5,8 @@
  * Contains the closing of the #content div and all content after
  *
  * @package WordPress
- * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
+ * @subpackage Web_You
+ * @since Web You 0.1
  */
 ?>
 
@@ -47,7 +47,7 @@
 					/**
 					 * Fires before the twentysixteen footer text for footer customization.
 					 *
-					 * @since Twenty Sixteen 1.0
+					 * @since Web You 0.1
 					 */
 					do_action( 'twentysixteen_credits' );
 				?>
