@@ -1,5 +1,5 @@
-# Translation of Themes - Twenty Sixteen in Polish
-# This file is distributed under the same license as the Themes - Twenty Sixteen package.
+# Translation of Themes - Web You in Polish
+# This file is distributed under the same license as the Themes - Web You package.
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2015-12-07 22:27:53+0000\n"
@@ -9,15 +9,15 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: pl\n"
-"Project-Id-Version: Themes - Twenty Sixteen\n"
+"Project-Id-Version: Themes - Web You\n"
 
 #. Theme Name of the theme
-msgid "Twenty Sixteen"
-msgstr "Twenty Sixteen"
+msgid "Web You"
+msgstr "Web You"
 
 #. Description of the theme
-msgid "Twenty Sixteen is a modernized take on an ever-popular WordPress layout — the horizontal masthead with an optional right sidebar that works perfectly for blogs and websites. It has custom color options with beautiful default color schemes, a harmonious fluid grid using a mobile-first approach, and impeccable polish in every detail. Twenty Sixteen will make your WordPress look beautiful everywhere."
-msgstr "Twenty Sixteen to unowocześniony, popularny wygląd WordPressa &mdash; poziomy nagłówek z opcjonalnym prawym panelem bocznym doskonale pasuje do blogów i innych witryn. Umożliwia ustawienie własnych kolorów, posiadając również gotowe propozycje zestawów kolorystycznych. Oparty jest na eleganckiej i elastycznej siatce podejścia mobile-first, będąc dopracowanym w każdym detalu. Twenty Sixteen sprawi, że WordPress będzie wyglądał pięknie &mdash; wszędzie."
+msgid "Projekt strony WebYou"
+msgstr "Projekt strony WebYou"
 
 #. translators: %s: Name of current post
 #: image.php:88 template-parts/content.php:53
@@ -192,8 +192,8 @@ msgid "Base Color Scheme"
 msgstr "Podstawowy zestaw kolorów"
 
 #: inc/back-compat.php:41 inc/back-compat.php:54 inc/back-compat.php:72
-msgid "Twenty Sixteen requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
-msgstr "Twenty Sixteen wymaga WordPressa przynajmniej w wersji 4.4. Aktualnie używaż wersji %s. Zaktualizuj system i spróbuj ponownie."
+msgid "Web You requires at least WordPress version 4.4. You are running version %s. Please upgrade and try again."
+msgstr "Web You wymaga WordPressa przynajmniej w wersji 4.4. Aktualnie używaż wersji %s. Zaktualizuj system i spróbuj ponownie."
 
 #: image.php:77
 msgctxt "Used before full size attachment link."
@@ -318,11 +318,11 @@ msgstr "Ups! Nie udało się znaleźć pożądanej strony."
 
 #. Author of the theme
 msgid "the WordPress team"
-msgstr "zespół WordPressa"
+msgstr "the WordPress team"
 
 #. Theme URI of the theme
-msgid "https://wordpress.org/themes/twentysixteen/"
-msgstr "https://pl.wordpress.org/themes/twentysixteen/"
+msgid "https://wordpress.org/themes/webyou/"
+msgstr "https://pl.wordpress.org/themes/webyou/"
 
 #. Author URI of the theme
 #: footer.php:60

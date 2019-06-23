@@ -296,7 +296,7 @@ msgstr "Następna strona"
 
 #. Author of the theme
 msgid "the WordPress team"
-msgstr "zespół WordPressa"
+msgstr "the WordPress team"
 
 #. Theme URI of the theme
 msgid "https://wordpress.org/themes/twentyseventeen/"

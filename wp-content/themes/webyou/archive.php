@@ -12,8 +12,8 @@
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package WordPress
- * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
+ * @subpackage Web_You
+ * @since Web You 1.0
  */
 
 get_header(); ?>
@@ -48,9 +48,9 @@ get_header(); ?>
 			// Previous/next page navigation.
 			the_posts_pagination(
 				array(
-					'prev_text'          => __( 'Previous page', 'twentysixteen' ),
-					'next_text'          => __( 'Next page', 'twentysixteen' ),
-					'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentysixteen' ) . ' </span>',
+					'prev_text'          => __( 'Previous page', 'webyou' ),
+					'next_text'          => __( 'Next page', 'webyou' ),
+					'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'webyou' ) . ' </span>',
 				)
 			);
 

@@ -3,8 +3,8 @@
  * The template for displaying all single posts and attachments
  *
  * @package WordPress
- * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
+ * @subpackage Web_You
+ * @since Web You 1.0
  */
 
 get_header(); ?>
@@ -28,18 +28,18 @@ get_header(); ?>
 				// Parent post navigation.
 				the_post_navigation(
 					array(
-						'prev_text' => _x( '<span class="meta-nav">Published in</span><span class="post-title">%title</span>', 'Parent post link', 'twentysixteen' ),
+						'prev_text' => _x( '<span class="meta-nav">Published in</span><span class="post-title">%title</span>', 'Parent post link', 'webyou' ),
 					)
 				);
 			} elseif ( is_singular( 'post' ) ) {
 				// Previous/next post navigation.
 				the_post_navigation(
 					array(
-						'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'twentysixteen' ) . '</span> ' .
-							'<span class="screen-reader-text">' . __( 'Next post:', 'twentysixteen' ) . '</span> ' .
+						'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'webyou' ) . '</span> ' .
+							'<span class="screen-reader-text">' . __( 'Next post:', 'webyou' ) . '</span> ' .
 							'<span class="post-title">%title</span>',
-						'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'twentysixteen' ) . '</span> ' .
-							'<span class="screen-reader-text">' . __( 'Previous post:', 'twentysixteen' ) . '</span> ' .
+						'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'webyou' ) . '</span> ' .
+							'<span class="screen-reader-text">' . __( 'Previous post:', 'webyou' ) . '</span> ' .
 							'<span class="post-title">%title</span>',
 					)
 				);

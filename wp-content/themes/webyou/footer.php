@@ -5,8 +5,8 @@
  * Contains the closing of the #content div and all content after
  *
  * @package WordPress
- * @subpackage Twenty_Sixteen
- * @since Twenty Sixteen 1.0
+ * @subpackage Web_You
+ * @since Web You 1.0
  */
 ?>
 
@@ -14,7 +14,7 @@
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<?php if ( has_nav_menu( 'primary' ) ) : ?>
-				<nav class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Primary Menu', 'twentysixteen' ); ?>">
+				<nav class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Primary Menu', 'webyou' ); ?>">
 					<?php
 						wp_nav_menu(
 							array(
@@ -27,7 +27,7 @@
 			<?php endif; ?>
 
 			<?php if ( has_nav_menu( 'social' ) ) : ?>
-				<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentysixteen' ); ?>">
+				<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'webyou' ); ?>">
 					<?php
 						wp_nav_menu(
 							array(
@@ -45,11 +45,11 @@
 			<div class="site-info">
 				<?php
 					/**
-					 * Fires before the twentysixteen footer text for footer customization.
+					 * Fires before the webyou footer text for footer customization.
 					 *
-					 * @since Twenty Sixteen 1.0
+					 * @since Web You 1.0
 					 */
-					do_action( 'twentysixteen_credits' );
+					do_action( 'webyou_credits' );
 				?>
 				<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
 				<?php
@@ -57,8 +57,8 @@
 					the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 				}
 				?>
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentysixteen' ) ); ?>" class="imprint">
-					<?php printf( __( 'Proudly powered by %s', 'twentysixteen' ), 'WordPress' ); ?>
+				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'webyou' ) ); ?>" class="imprint">
+					<?php printf( __( 'Proudly powered by %s', 'webyou' ), 'WordPress' ); ?>
 				</a>
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->

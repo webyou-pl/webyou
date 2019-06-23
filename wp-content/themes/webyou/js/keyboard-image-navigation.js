@@ -1,9 +1,9 @@
 /**
- * Twenty Sixteen keyboard support for image navigation.
+ * Web You keyboard support for image navigation.
  */
 
 ( function( $ ) {
-	$( document ).on( 'keydown.twentysixteen', function( e ) {
+	$( document ).on( 'keydown.webyou', function( e ) {
 		var url = false;
 
 		// Left arrow key code.
