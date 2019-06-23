@@ -3,8 +3,8 @@
  * The template for displaying image attachments
  *
  * @package WordPress
- * @subpackage Web_You
- * @since Web You 0.1
+ * @subpackage Twenty_Sixteen
+ * @since Twenty Sixteen 1.0
  */
 
 get_header(); ?>
@@ -38,7 +38,7 @@ get_header(); ?>
 							/**
 							 * Filter the default twentysixteen image attachment size.
 							 *
-							 * @since Web You 0.1
+							 * @since Twenty Sixteen 1.0
 							 *
 							 * @param string $image_size Image size. Default 'large'.
 							 */
