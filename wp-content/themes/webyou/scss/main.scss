@@ -1,31 +1,39 @@
 // base template
-    @import "base/variables",
+    @import 
+            "base/variables",
             "base/mixins";
 
 
 // Bootstrap
-    @import "bootstrap/bootstrap.scss";
-    @import "bootstrap/bootstrap-reboot.scss";
-    @import "bootstrap/bootstrap-grid.scss";
+    @import
+            "bootstrap/bootstrap.scss",
+            "bootstrap/bootstrap-reboot.scss",
+            "bootstrap/bootstrap-grid.scss";
 
 
 //base others ??Sprawdzic czy nie moze byc na pierwszej pozycji
-    @import "base/typography";
+    @import 
+            "base/typography";
 
 
 //components
-    @import "components/burrons";
+    @import 
+            "components/burrons";
 
 
 //layour
-    @import "layout/header",
+    @import 
+            "layout/template",
+            "layout/header",
             "layout/nav",
             "layout/footer";
 
 
 //pages
-    @import "pages/contact";
+    @import 
+            "pages/contact";
 
 
 //unspecified
-    @import "unspecified/unspecified";
+    @import 
+            "unspecified/unspecified";
