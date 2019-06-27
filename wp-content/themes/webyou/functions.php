@@ -366,8 +366,16 @@ function webyou_scripts() {
 	// Add Genericons, used in the main stylesheet.
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.4.1' );
 
-	// Theme stylesheet.
-	wp_enqueue_style( 'webyou-style', get_stylesheet_uri() );
+// !@### Podstaowe style CSS 
+
+	// Theme stylesheet. // !@### Pierwsze css ze szablonu 
+	// wp_enqueue_style( 'webyou-style', get_stylesheet_uri() );
+
+	// !@### Style webyou
+	wp_enqueue_style( 'main-style-webyou', get_template_directory_uri() . '/build/main.css' );
+
+// !@### Koniec podstawowych styli CSS
+
 
 	// Theme block stylesheet.
 	wp_enqueue_style( 'webyou-block-style', get_template_directory_uri() . '/css/blocks.css', array( 'webyou-style' ), '20181230' );
@@ -573,3 +581,5 @@ function webyou_widget_tag_cloud_args( $args ) {
 	return $args;
 }
 add_filter( 'widget_tag_cloud_args', 'webyou_widget_tag_cloud_args' );
+
+
