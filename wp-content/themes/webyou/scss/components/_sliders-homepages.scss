@@ -1,0 +1,19 @@
+#sliders-homepages{
+    position: relative;
+    // width: 100vw;
+    height: 100vh;
+    .slide{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100vw;
+        max-height: 75vh;
+        overflow: hidden;
+    }
+    img{
+        // max-height: 100vh;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
