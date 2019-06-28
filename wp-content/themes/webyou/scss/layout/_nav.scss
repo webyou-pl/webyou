@@ -1,0 +1,81 @@
+
+#site-header-menu.site-header-menu{
+    .main-navigation{
+        ul.primary-menu{
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            li{
+                &.menu-item{
+                    font-size: 1.6rem;
+                    padding: 0 2em; 
+
+
+                    // active page
+                    &.current-menu-item{
+                        & > a{
+                            color: $primary;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                
+
+                &.menu-item-has-children{
+                    position: relative;
+
+                    &:hover >  ul.sub-menu{
+                        display: block;
+                    }
+
+                    .dropdown-toggle{
+                        background-color: transparent;
+                        border: 0;
+
+                        &[aria-expanded="true"]{
+                            & + .sub-menu{
+                                display: block;
+                            }
+
+                            &::before{
+                                content: 'link';
+                                position: absolute;
+                                display: block;
+                                width: 15px;
+                                height: 15px;
+                                transform: translate(-50%, -50%) rotate(-45deg);
+                                font-family: 'Material Icons';
+                                opacity: .45;
+                                left: calc(100% - 35px);
+                                top: 50%;
+                            }
+                        }
+
+                        .screen-reader-text{
+                            display: none;
+                        }
+
+                        &::after{
+                            color: $secondary;
+                            position: relative;
+                        }
+                    }
+                
+                    ul.sub-menu{
+                        display: none;
+                        position: absolute;
+                        padding: 0;
+                        @extend .dropdown-menu;
+
+                        li.menu-item{
+                            padding: .7rem 2.4rem;
+                            list-style-type: none;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}

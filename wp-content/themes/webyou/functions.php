@@ -372,7 +372,7 @@ function webyou_scripts() {
 	// wp_enqueue_style( 'webyou-style', get_stylesheet_uri() );
 
 	// !@### Style webyou
-	wp_enqueue_style( 'main-style-webyou', get_template_directory_uri() . '/build/main.css' );
+	wp_enqueue_style( 'main-style-webyou', get_template_directory_uri() . '/build/main.css');
 
 // !@### Koniec podstawowych styli CSS
 

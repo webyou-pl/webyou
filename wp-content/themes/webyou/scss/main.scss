@@ -6,9 +6,7 @@
 
 // Bootstrap
     @import
-            "bootstrap/bootstrap.scss",
-            "bootstrap/bootstrap-reboot.scss",
-            "bootstrap/bootstrap-grid.scss";
+            "bootstrap/bootstrap.scss";
 
 
 //base others ??Sprawdzic czy nie moze byc na pierwszej pozycji
@@ -36,4 +34,5 @@
 
 //unspecified
     @import 
+            "unspecified/materialicons",
             "unspecified/unspecified";
