@@ -1,0 +1,39 @@
+// base template
+    @import 
+            "base/variables",
+            "base/mixins";
+
+
+// Bootstrap
+    @import
+            "bootstrap/bootstrap.scss";
+
+
+//base others ??Sprawdzic czy nie moze byc na pierwszej pozycji
+    @import 
+            "base/typography";
+
+
+//components
+    @import 
+            "components/sliders-homepages",
+            "components/buttons";
+
+
+//layour
+    @import 
+            "layout/template",
+            "layout/header",
+            "layout/nav",
+            "layout/footer";
+
+
+//pages
+    @import 
+            "pages/contact";
+
+
+//unspecified
+    @import 
+            "unspecified/materialicons",
+            "unspecified/unspecified";

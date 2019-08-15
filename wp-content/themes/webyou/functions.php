@@ -583,3 +583,10 @@ function webyou_widget_tag_cloud_args( $args ) {
 add_filter( 'widget_tag_cloud_args', 'webyou_widget_tag_cloud_args' );
 
 
+// nasze
+
+function generuj_favicon(){
+	echo '<link rel="shortcut icon" type="image/x-icon" href="wp-content/themes/webyou/favicon.ico"/>' . "\n";
+}
+// do jakiej sekcji ładujemy
+add_action('wp_head', 'generuj_favicon');

@@ -8,18 +8,18 @@ var reload = browserSync.reload;
 
 
 gulp.task('sass', done => {
-  return gulp.src('./wp-content/themes/webyou/scss/main.scss')
+  return gulp.src('./wp-content/themes/szablon-webyou/scss/main.scss')
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('./wp-content/themes/webyou/build/'))
+    .pipe(gulp.dest('./wp-content/themes/szablon-webyou/build/'))
     .pipe(browserSync.stream())
     done();
 });
 
 
 gulp.task('watch', function(){
-  gulp.watch('./wp-content/themes/webyou/**/*.scss', gulp.series('sass'));
+  gulp.watch('./wp-content/themes/szablon-webyou/**/*.scss', gulp.series('sass'));
   browserSync.reload();
 });
 
@@ -28,8 +28,8 @@ gulp.task('browser-sync', () => {
     proxy: 'http://localhost/webyou/'
   });
 
-  gulp.watch('./wp-content/themes/webyou/**/*.php').on("change", reload);
-  gulp.watch('./wp-content/themes/webyou/**/*.css').on("change", reload);
+  gulp.watch('./wp-content/themes/szablon-webyou/**/*.php').on("change", reload);
+  gulp.watch('./wp-content/themes/szablon-webyou/**/*.css').on("change", reload);
 
 });
 

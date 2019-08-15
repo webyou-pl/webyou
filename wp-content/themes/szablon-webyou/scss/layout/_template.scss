@@ -1,0 +1,9 @@
+body{
+    overflow-x: hidden;
+    // overscroll-behavior-x: hidden;
+    
+    &.home{
+        @extend #{$widthTemplate};
+    }
+
+}

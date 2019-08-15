@@ -1,0 +1,22 @@
+/*
+Theme Name: Szablon-Webyou
+Theme URI: http://webyou.pl
+Author: Webyou - Krzysztofbaraniecki
+Author URI: http://webyou.pl
+version: 0.1
+Description: Webyou team page template
+
+License: Freeware 
+License URI: http://webyou/licenses/{nazwa}.html
+
+Tags: tag1, tag2,tag3
+
+*/
+
+.wpinfo{
+    display: block;
+    min-height: 200px;
+    background: red;
+    color: white;
+    font-size: 1.5rem;
+}
