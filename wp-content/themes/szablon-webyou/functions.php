@@ -36,4 +36,21 @@ if(function_exists('register_nav_menus')){ //sprawdza czy była już utworzona
 add_action('after_setup_theme','wpb_theme_setup');
 
 
+//breadcrumbs
+function the_breadcrumb() {
+    global $post;
+    $divider = '<span> / </span>';
+
+    echo '<a href="'.home_url().'">DUPA</a>';
+    echo $divider;
+    
+    $post_type_name = get_post_type();
+    $post_type_url = get_post_type_archive_link(get_post_type());
+
+    echo '<a href="'.$post_type_url.'">'.ucfirst($post_type_name).'</a>';
+
+    echo $divider;
+    the_title();
+}
+
 ?>

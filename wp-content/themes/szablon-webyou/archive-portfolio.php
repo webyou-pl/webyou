@@ -35,7 +35,7 @@
 <?php 
     // echo post_class('entry') //dodaje class
     // echo the_ID(); // dodaje id artykułu
-    // echo the_permalink(); //link do artykułu
+    echo the_permalink(); //link do artykułu
     echo the_post_thumbnail(); //obrazek ??
     echo the_title(); //tytuł strony
     echo get_the_excerpt(); // wartosc tekstu pobiera pierw z zajawki a jezeli jest pusta pobiera główną zawartość
