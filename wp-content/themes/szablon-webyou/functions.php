@@ -53,4 +53,30 @@ function the_breadcrumb() {
     the_title();
 }
 
+
+//komentarze
+function webyou_cooment_theme($comment, $args, $depth){
+    $GLOBALS['comment'] = $comment;
+
+    $tag = $args['style'];
+
+
+?>
+
+    <<?= $tag ?> <?php comment_class(empty($args['has_children']) ? '' : 'parent') ?> id="li-comment-<?php comment_ID() ?>">
+        <div id="div-comment-<?php comment_ID(); ?>" class="inner">
+        img:  <?php echo get_avatar($comment, $args['avatar_size']); ?>
+        autor: <?php echo get_comment_author_link(); ?>
+        data: <?php echo get_comment_date().' AAA '.get_comment_time() ?>
+        <?php comment_reply_link(array_merge($args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
+        text: <?php comment_text(); ?>
+
+        <?php if($comment->comment_approved == '0') :  ?>
+            twój komentarz czeka
+        <?php endif; ?>
+        </div>
+    <!-- brak znacznika zamykającego -->
+
+<?php 
+}
 ?>
