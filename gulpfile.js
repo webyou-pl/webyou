@@ -8,7 +8,7 @@ var reload = browserSync.reload;
 
 
 gulp.task('sass', done => {
-  return gulp.src('./wp-content/themes/szablon-webyou/scss/main.scss')
+  return gulp.src(['./wp-content/themes/szablon-webyou/scss/*.scss', '!./wp-content/themes/szablon-webyou/scss/main.scss'])
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(sourcemaps.write())
