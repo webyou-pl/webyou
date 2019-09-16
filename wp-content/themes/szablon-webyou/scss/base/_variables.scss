@@ -13,9 +13,18 @@
     $font-weight-base:  400;
     $font-size-base: 1rem;
 
-// whidth template? 
+// Spacing
+    $spacer: 1rem;
+
+    $spacers: ();
+
+    @for $i from 0 through 12 {
+        $spacers: map-merge($spacers, ($i: $i * 1rem));
+    }
+
+// whidth template?
     //.container or .container-fluid
-    $widthTemplate: ".container"; 
+    $widthTemplate: ".container";
 
 // does the site use material icons?
     //true or false
