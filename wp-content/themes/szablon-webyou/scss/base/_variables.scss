@@ -7,6 +7,12 @@
     $success: #28a745;
 
 
+//Font
+    @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap&subset=latin-ext');
+    $font-family-base: 'Lato', sans-serif;
+    $font-weight-base:  400;
+    $font-size-base: 1rem;
+
 // whidth template? 
     //.container or .container-fluid
     $widthTemplate: ".container"; 
@@ -14,3 +20,5 @@
 // does the site use material icons?
     //true or false
     $useMaterialIcons: "true";
+
+    $test: "true"

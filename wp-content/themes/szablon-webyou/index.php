@@ -38,7 +38,6 @@
                             <h5 class="carousel-caption--title">Nagłówek 3</h5>
                             <p class="carousel-caption--text">Text który jest na sliderze</p>
                             <a href="#!" class="btn btn-primary carousel-caption--btn">Zobacz więcej</a>
-                            
                     </div>
                 </div>
             </div>

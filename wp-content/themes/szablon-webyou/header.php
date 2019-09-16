@@ -26,7 +26,7 @@
 
 
         <!-- js szablonu -->
-        <script scr="<?= WEBYOU_THEME_URL ?>js/main.js"></script>
+        <script type="text/javascript" scr="<?= WEBYOU_THEME_URL ?>js/main.js"></script>
 
         <!--// co to jest pingback? -cos ze zgłaszaniem nowych postów -->
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
