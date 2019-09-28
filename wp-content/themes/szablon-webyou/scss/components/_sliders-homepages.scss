@@ -21,13 +21,10 @@
         .carousel-inner{
             @extend .h-100;
             .carousel-item{
-                height: $size-h-slider-main;
-
                 &.active{
 
                 }
                 .carousel-image{
-                    
                     img{
                         object-fit: cover;
                         height: 100vh;
