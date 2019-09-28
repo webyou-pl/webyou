@@ -12,6 +12,7 @@
     $font-family-base: 'Lato', sans-serif;
     $font-weight-base:  400;
     $font-size-base: 1.6rem;
+    $body-color: black;
 
 //Links
     $link-color: $primary;
@@ -41,11 +42,32 @@
             margin-bottom: calc(#{$caret-width} / 2);
         }
 
-// Spacing
+//btn
+    $btn-font-family: $font-family-base;
+    $btn-font-weight: $font-weight-base;
+    $btn-padding-y: 1rem;
+    $btn-padding-x: 2rem;
+    $btn-font-size: $font-size-base;
+    $btn-line-height: 1.5;
+    $btn-border-radius: 15px 0;
+
+//slider homepage
+    $size-h-slider-main: 60rem;
+    $font-size-text-slider-main: 3rem;
+    $margin-bootom-text-slider-main: 2rem;
+    $font-size-title-slider-main: 6rem;
+    $margin-bootom-title-slider-main: 2rem;
+
+
+
+
+// ##### STRUCTURE #####
+// spacer
+    $space-section: 8rem;
+    $space-footer: $space-section / 2;
+
     $spacer: 1rem;
-
     $spacers: ();
-
     @for $i from 0 through 12 {
         $spacers: map-merge($spacers, ($i: $i * 1rem));
     }
@@ -57,6 +79,3 @@
 // does the site use material icons?
     //true or false
     $useMaterialIcons: "true";
-
-//slider homepage
-    $size-h-slider: 60rem;

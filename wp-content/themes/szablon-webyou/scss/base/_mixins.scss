@@ -1,0 +1,21 @@
+@mixin full-bg-setcion($bg-color: $secondary, $bg-opacity: 1, $bg-image: null){
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100%;
+        width: 100vw;
+        @if($bg-opacity != 1){
+            opacity: $bg-opacity;
+        }
+        @if($bg-color != null){
+            background-color: $bg-color;
+        }
+        @if($bg-image != null){
+            background-image: url('#{$bg-image}');
+        }
+        z-index: -1; // << to moze psuc przy przewijaniu
+    }
+}

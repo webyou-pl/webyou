@@ -1,0 +1,18 @@
+#main-footer{
+    padding-top: $space-footer;
+    padding-bottom: $space-footer;
+    color: $primary;
+
+    position: relative;
+    @include full-bg-setcion();
+}
+#copyright{
+    position: relative;
+    color: $primary;
+    padding: .5rem 0;
+    @include full-bg-setcion(darken($secondary, 15%));
+    p{
+        margin-bottom: 0;
+        font-size: 1.3rem;
+    }
+}

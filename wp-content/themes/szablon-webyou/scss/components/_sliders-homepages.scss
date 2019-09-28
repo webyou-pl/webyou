@@ -1,8 +1,8 @@
 .home-slider{
     position: relative;
-    height: $size-h-slider;
+    height: $size-h-slider-main;
     #webyou-carosel{
-        height: $size-h-slider;
+        height: $size-h-slider-main;
         position: absolute;
         width: 100vw;
         top: 0;
@@ -14,14 +14,14 @@
                 transition: all 1s ease-in-out;
 
                 &.active{
-                    width: 15px;
+                    width: 1.5rem;
                 }
             }
         }
         .carousel-inner{
 
             .carousel-item{
-                height: $size-h-slider;
+                height: $size-h-slider-main;
 
                 &.active{
 
@@ -41,10 +41,12 @@
                     @extend #{$widthTemplate};
 
                     &--title{
-                        font-size: 6rem;
+                        font-size: $font-size-title-slider-main;
+                        margin-bottom: $margin-bootom-title-slider-main;
                     }
                     &--text{
-                        font-size: 3rem;
+                        font-size: $font-size-text-slider-main;
+                        margin-bottom: $margin-bootom-text-slider-main;
                     }
                 }
             }

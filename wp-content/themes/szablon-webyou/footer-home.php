@@ -1,5 +1,10 @@
-        <footer id="main-footer">
-            <p>to jest nasza stopka home</p>
+        <footer>
+            <div id="main-footer">
+              <p>to jest nasza stopka home</p>
+            </div>
+            <div id="copyright" class="text-center">
+            <p>©2019 <strong class="text-danger">NAZWA PROJEKTU</strong> - wszelkie prawa zastrzeżone. Projekt zrealizowany przez zespół <a href="https://www.webyou.pl" title="Front-End Web Developer Programisa Wrocław" target="_blank">www.webyou.pl</a>.</strong></strong></p>
+            </div>
         </footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

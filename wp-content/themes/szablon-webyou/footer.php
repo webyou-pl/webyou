@@ -1,5 +1,10 @@
-        <footer id="main-footer">
-            <p>to jest nasza stopka</p>
+        <footer>
+            <div id="main-footer">
+                <p>to jest nasza stopka</p>
+            </div>
+            <div id="copyright">
+                <p>copyright</p>
+            </div>
         </footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

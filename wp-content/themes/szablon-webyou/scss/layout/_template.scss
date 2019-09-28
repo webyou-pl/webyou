@@ -1,9 +1,16 @@
 body{
     overflow-x: hidden;
     // overscroll-behavior-x: hidden;
-    
-    main, footer, #header-top, #main-nav{
-        @extend #{$widthTemplate};
+    & >{
+        main, footer, header{
+            @extend #{$widthTemplate};
+        }
     }
 
+    main >{
+        & article, & section{
+            margin-top: $space-section;
+            margin-bottom: $space-section;
+        }
+    }
 }
