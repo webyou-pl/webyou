@@ -38,7 +38,17 @@
     <body <?php body_class() ?>>
 
         <header>
-            <h1><a href="<?= esc_url(home_url('/')); ?>">Nazwa/logo szablonu</a></h1>
+            <div id="header-top" class="row justify-content-between">
+                <div class="col-auto header-top__logo">
+                    <p>ID: #header-top</p>
+                </div>
+                <div class="col-auto d-flex header-top__social-media">
+                    <p>Zastosowanie tj.:</p>
+                    <a href="<?= esc_url(home_url('/')); ?>">logo</a>
+                    <p>/ Social media</p>
+                    <p>/ btns</p>
+                </div>
+            </div>
 
             <nav id="main-nav" class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#">Navbar</a>

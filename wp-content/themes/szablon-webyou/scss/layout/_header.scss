@@ -1,0 +1,17 @@
+#header-top{
+    padding: $header-padding-y $header-padding-x;
+    .header-top{
+        &__social-media > *{
+            margin: 0 1rem;
+            &:first-child{
+                margin-left: 0;
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+        &__logo > *, &__social-media > *{
+            margin-bottom: 0;
+        }
+    }
+}

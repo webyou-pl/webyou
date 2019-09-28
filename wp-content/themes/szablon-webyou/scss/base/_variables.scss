@@ -11,7 +11,35 @@
     @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap&subset=latin-ext');
     $font-family-base: 'Lato', sans-serif;
     $font-weight-base:  400;
-    $font-size-base: 1rem;
+    $font-size-base: 1.6rem;
+
+//Links
+    $link-color: $primary;
+
+    // Links hover{
+        $link-hover-decoration: none;
+
+//header
+    $header-padding-x: 0;
+    $header-padding-y: .5rem;
+
+//Nav
+    $navbar-padding-x: 0rem;
+    $navbar-padding-y: 1rem;
+
+    // brand/logo
+    $navbar-brand-font-size: 3rem;
+
+    //padding nav-link
+    $navbar-nav-link-padding-x: 1rem;
+    $nav-link-padding-y: .5rem;
+
+    //dropdown - arrow
+    $caret-width: .5rem;
+    $caret-vertical-align: baseline;
+        .dropdown-toggle::after{
+            margin-bottom: calc(#{$caret-width} / 2);
+        }
 
 // Spacing
     $spacer: 1rem;
@@ -30,4 +58,5 @@
     //true or false
     $useMaterialIcons: "true";
 
-    $test: "true"
+//slider homepage
+    $size-h-slider: 60rem;

@@ -1,19 +1,20 @@
-nav{
-    &#main-nav{
-        &.navbar{
-            z-index: 1;
-            &::before{
-                content: '';
-                position: absolute;
-                top: 0;
-                left: 50%;
-                transform: translateX(-50%);
-                height: 100%;
-                width: 100vw;
-                background-color: $secondary;
-                z-index: -1; // << to moze psuc przy przewijaniu
 
-            }
-        }
+#main-nav{
+    z-index: 1;
+    @include media-breakpoint-up(xl) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 100%;
+        width: 100vw;
+        background-color: $secondary;
+        z-index: -1; // << to moze psuc przy przewijaniu
     }
 }
