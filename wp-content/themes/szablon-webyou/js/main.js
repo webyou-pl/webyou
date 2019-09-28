@@ -17,3 +17,15 @@ function scrollHandler () {
 scrollHandler()
 
 window.addEventListener('scroll', scrollHandler)
+
+
+//wielkość slidera
+function heightMainslider(){
+    var mainSlider = document.querySelector(".home-slider")
+    var header = document.getElementById("header")
+
+    mainSlider.style.height = `${(window.innerHeight-header.offsetHeight)}px`
+}
+
+heightMainslider();
+window.addEventListener('resize', heightMainslider)

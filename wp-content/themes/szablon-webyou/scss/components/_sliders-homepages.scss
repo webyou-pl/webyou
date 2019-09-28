@@ -2,7 +2,7 @@
     position: relative;
     height: $size-h-slider-main;
     #webyou-carosel{
-        height: $size-h-slider-main;
+        @extend .h-100;
         position: absolute;
         width: 100vw;
         top: 0;
@@ -19,7 +19,7 @@
             }
         }
         .carousel-inner{
-
+            @extend .h-100;
             .carousel-item{
                 height: $size-h-slider-main;
 
@@ -27,11 +27,11 @@
 
                 }
                 .carousel-image{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-
-                    // img{}
+                    
+                    img{
+                        object-fit: cover;
+                        height: 100vh;
+                    }
                 }
                 .carousel-caption{
                     position: absolute;

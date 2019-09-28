@@ -37,7 +37,7 @@
     </head>
     <body <?php body_class() ?>>
 
-        <header>
+        <header id="header">
             <div id="header-top" class="row justify-content-between">
                 <div class="col-auto header-top__logo">
                     <p>ID: #header-top</p>
