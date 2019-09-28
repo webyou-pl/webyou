@@ -1,5 +1,10 @@
 #header-top{
-    padding: $header-padding-y $header-padding-x;
+    // padding: $header-padding-y $header-padding-x !important;
+    padding-top: $header-padding-y !important;
+    padding-right: $header-padding-x !important;
+    padding-bottom: $header-padding-y;
+    padding-left: $header-padding-x!important;
+    
     .header-top{
         &__social-media > *{
             margin: 0 1rem;

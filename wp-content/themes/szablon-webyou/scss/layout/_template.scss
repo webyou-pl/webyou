@@ -2,7 +2,7 @@ body{
     overflow-x: hidden;
     // overscroll-behavior-x: hidden;
     
-    &.home{
+    main, footer, #header-top, #main-nav{
         @extend #{$widthTemplate};
     }
 
