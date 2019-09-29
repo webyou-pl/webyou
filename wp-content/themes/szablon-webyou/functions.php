@@ -59,8 +59,6 @@ function webyou_cooment_theme($comment, $args, $depth){
     $GLOBALS['comment'] = $comment;
 
     $tag = $args['style'];
-
-
 ?>
 
     <<?= $tag ?> <?php comment_class(empty($args['has_children']) ? '' : 'parent') ?> id="li-comment-<?php comment_ID() ?>">
@@ -77,6 +75,12 @@ function webyou_cooment_theme($comment, $args, $depth){
         </div>
     <!-- brak znacznika zamykającego -->
 
+
 <?php 
 }
+?>
+
+<!-- variabulss global -->
+<?php
+ $messageErrorPageForAdministrator = '<strong>Jeśli zauważyłeś <span class="text-danger">błąd</span> na stronie, zgłoś administratorowi adres [" ' .'http: //'.$_SERVER['HTTP_HOST'].$_SERVER['SCRIPT_NAME'].'?'.$_SERVER['QUERY_STRING']. '"] wraz z opisem błędu.</strong>';
 ?>
