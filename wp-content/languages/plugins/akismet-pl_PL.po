@@ -47,7 +47,7 @@ msgstr "Polityka prywatności Akismeta"
 msgid "Privacy"
 msgstr "Prywatność"
 
-#: class.akismet.php:226
+#: class.akismet.php:231
 msgid "Comment discarded."
 msgstr "Komentarz został odrzucony."
 
@@ -175,7 +175,7 @@ msgstr[2] "Akismet sprawdził %s komentarzy."
 msgid "Checking for Spam"
 msgstr "Sprawdzanie spamu"
 
-#: class.akismet.php:507
+#: class.akismet.php:512
 msgid "Comment not found."
 msgstr "Nie znaleziono komentarza."
 
@@ -660,11 +660,11 @@ msgstr "Akismet wychwycił ten komentarz jako będący spamem podczas automatycz
 msgid "Akismet cleared this comment during an automatic retry."
 msgstr "Akismet przepuścił ten komentarz podczas automatycznego ponownego sprawdzenia."
 
-#: class.akismet.php:1268
+#: class.akismet.php:1277
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "<a href=\"%1$s\">Zaktualizuj WordPressa</a> do najnowszej wersji lub <a href=\"%2$s\">przywróć wersję 2.4 wtyczki Akismet</a>."
 
-#: class.akismet.php:1268
+#: class.akismet.php:1277
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Akismet %s do działania wymaga WordPressa w wersji %s lub nowszej."
 

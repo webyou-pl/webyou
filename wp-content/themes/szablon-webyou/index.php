@@ -53,6 +53,17 @@
     </section>
 
     <main>
+    <?php 
+if ( have_posts() ) :
+    // echo "dupa";
+    while ( have_posts() ) :
+      the_post();
+      get_template_part( 'witaj-swiecie' );
+    endwhile;
+  else:
+    _e( 'Brak wpisów', 'textdomain' );
+  endif;
+    ?>
         <section>O NAS</section>
         <section>technologie</section>
         <section><p>Nasze realizacjie - <em>artykuły</em></p></section>

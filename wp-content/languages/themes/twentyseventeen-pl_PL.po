@@ -246,7 +246,7 @@ msgstr "Strony:"
 msgid "Menu"
 msgstr "Menu"
 
-#: header.php:27
+#: header.php:28
 msgid "Skip to content"
 msgstr "Przejdź do treści"
 
@@ -296,7 +296,7 @@ msgstr "Następna strona"
 
 #. Author of the theme
 msgid "the WordPress team"
-msgstr "the WordPress team"
+msgstr "zespół WordPressa"
 
 #. Theme URI of the theme
 msgid "https://wordpress.org/themes/twentyseventeen/"

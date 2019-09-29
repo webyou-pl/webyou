@@ -27,7 +27,7 @@ msgstr "Powrót"
 msgid "Large"
 msgstr "Duży"
 
-#: functions.php:170
+#: functions.php:166
 msgid "White"
 msgstr "Biały"
 
@@ -36,11 +36,11 @@ msgctxt "Used before full size attachment link."
 msgid "Full size"
 msgstr "Pełny rozmiar"
 
-#: template-parts/footer/footer-widgets.php:12 functions.php:192
+#: functions.php:188 template-parts/footer/footer-widgets.php:12
 msgid "Footer"
 msgstr "Stopka"
 
-#: functions.php:194
+#: functions.php:190
 msgid "Add widgets here to appear in your footer."
 msgstr "Tutaj dodaj widgety, które zostaną wyświetlone w stopce."
 
@@ -56,13 +56,13 @@ msgstr "Ups! Nie udało się znaleźć pożądanej strony."
 msgid "Comments are closed."
 msgstr "Możliwość komentowania jest wyłączona."
 
-#: template-parts/header/site-branding.php:46 functions.php:61
+#: functions.php:61 template-parts/header/site-branding.php:46
 msgid "Social Links Menu"
 msgstr "Menu odnośników serwisów społecznościowych"
 
+#: image.php:52 template-parts/content/content-page.php:27
 #: template-parts/content/content.php:49
-#: template-parts/content/content-page.php:27
-#: template-parts/content/content-single.php:40 image.php:52
+#: template-parts/content/content-single.php:40
 msgid "Pages:"
 msgstr "Strony:"
 
@@ -109,16 +109,16 @@ msgstr ", "
 msgid "Next Post"
 msgstr "Następny wpis"
 
-#: classes/class-twentynineteen-walker-comment.php:100
+#: classes/class-twentynineteen-walker-comment.php:99
 msgid "Your comment is awaiting moderation."
 msgstr "Twój komentarz oczekuje na moderację."
 
 #. translators: 1: comment date, 2: comment time
-#: classes/class-twentynineteen-walker-comment.php:87
+#: classes/class-twentynineteen-walker-comment.php:86
 msgid "%1$s at %2$s"
 msgstr "%1$s o %2$s"
 
-#: classes/class-twentynineteen-walker-comment.php:95
+#: classes/class-twentynineteen-walker-comment.php:94
 msgid "Edit"
 msgstr "Edytuj"
 
@@ -145,7 +145,7 @@ msgstr "Poprzedni wpis:"
 msgid "Next post:"
 msgstr "Następny wpis:"
 
-#: header.php:24
+#: header.php:25
 msgid "Skip to content"
 msgstr "Przeskocz do treści"
 
@@ -184,7 +184,7 @@ msgstr "Komentarze"
 
 #. Author of the theme
 msgid "the WordPress team"
-msgstr "the WordPress team"
+msgstr "zespół WordPressa"
 
 #. Author URI of the theme
 #: footer.php:25
