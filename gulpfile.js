@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
+var autoprefixer  = require("gulp-autoprefixer");
 var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;
 var srcFiles = './wp-content/themes/szablon-webyou';
@@ -12,6 +13,7 @@ gulp.task('sass', done => {
   return gulp.src(srcFiles+'/scss/main.scss')
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'}))
+    .pipe(autoprefixer())
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(srcFiles+'/build/'))
     .pipe(browserSync.stream())
